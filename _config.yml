@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hi,mo~~"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -30,7 +30,7 @@ copyright: true
 # See: https://support.google.com/webmasters/answer/139066
 # Tips: Before you open this tag, remember set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
 canonical: true
-
+url: http://hwchiu.github.io
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: false
 
@@ -45,12 +45,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+#  categories: /categories
+#  about: /about
   archives: /archives
   tags: /tags
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  sitemap: /sitemap.xml
+#  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -64,11 +64,11 @@ menu_icons:
   home: home
   about: user
   categories: th
-  schedule: calendar
+  #schedule: calendar
   tags: tags
   archives: archive
   sitemap: sitemap
-  commonweal: heartbeat
+  #commonweal: heartbeat
 
 
 
@@ -78,8 +78,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -140,8 +140,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  Github: https://github.com/hwchiu
+  Linkedin: https://www.linkedin.com/in/hung-wei-chiu-52561494/
 
 
 # Social Links Icons
@@ -152,16 +153,17 @@ font:
 social_icons:
   enable: true
   # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  LinkedIn: Linkedin
+#  Weibo: weibo
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -278,7 +280,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme:  night 
 
 
 # ---------------------------------------------------------------
@@ -306,8 +308,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: hwchiu
   count: true
 
 # Hypercomments
@@ -350,7 +352,7 @@ changyan:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-54006186-2
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -581,7 +583,10 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
-
+sitemap: 
+	path: sitemap.xml
+baidusitemap:
+	path: baidusitemap.xml
 
 # Assets
 css: css
