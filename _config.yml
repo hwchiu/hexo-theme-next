@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hi,mo~~"
+keywords: "Networking,Programming,Note,SDN,Software Defined Networking, Source Code Analysis, RDMA, Ceph, DRBD"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -309,7 +309,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: hwchiu
+  shortname: hwchiublog
   count: true
 
 # Hypercomments
