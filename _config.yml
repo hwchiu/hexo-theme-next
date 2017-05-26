@@ -11,7 +11,7 @@ keywords: "Networking,Programming,Note,SDN,Software Defined Networking, Source C
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
 #since: 2015
@@ -50,6 +50,7 @@ menu:
   archives: /archives
   tags: /tags
   sitemap: /sitemap.xml
+  feed: /atom.xml
 #  commonweal: /404.html
 
 
@@ -68,6 +69,7 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
+  feed: rss
   #commonweal: heartbeat
 
 
@@ -595,3 +597,10 @@ images: images
 
 # Theme version
 version: 5.1.1
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 15
+  hub:
+  content:
